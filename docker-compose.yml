@@ -1,0 +1,27 @@
+version: "3.9"
+
+networks:
+   quantumgames-network:
+
+services:
+   quantumcloud:
+      image: ${DOCKER_REGISTRY-}quantumcloud
+      build:
+         context: .
+         dockerfile: Dockerfile
+      container_name: quantumcloud-webapp
+      ports:
+         - 8080:80
+      networks:
+         - quantumgames-network
+
+   sqldatabase:
+      image: mcr.microsoft.com/mssql/server:2019-latest
+      environment:
+         - ACCEPT_EULA=Y
+         - MSSQL_SA_PASSWORD=@Root1234
+      ports:
+         - 1433:1433
+      networks:
+         - quantumgames-network
+      container_name: sqlserver_2019

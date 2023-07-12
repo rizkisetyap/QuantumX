@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantumCloud", "QuantumCloud.csproj", "{A9591B57-7DAE-452F-BCAD-92CA48431575}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FDDA9663-E6CF-401C-9F1C-12F8CCE2387D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9591B57-7DAE-452F-BCAD-92CA48431575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9591B57-7DAE-452F-BCAD-92CA48431575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9591B57-7DAE-452F-BCAD-92CA48431575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9591B57-7DAE-452F-BCAD-92CA48431575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDDA9663-E6CF-401C-9F1C-12F8CCE2387D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDDA9663-E6CF-401C-9F1C-12F8CCE2387D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDDA9663-E6CF-401C-9F1C-12F8CCE2387D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDDA9663-E6CF-401C-9F1C-12F8CCE2387D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F02BFF3A-BE99-4EBB-86B9-052AF6DB0602}
+	EndGlobalSection
+EndGlobal
